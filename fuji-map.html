@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3f65904ec1abe792a90e73ff2836d59a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3f65904ec1abe792a90e73ff2836d59a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3f65904ec1abe792a90e73ff2836d59a = L.map(
+                "map_3f65904ec1abe792a90e73ff2836d59a",
+                {
+                    center: [35.451876383333335, 138.79241943333332],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_506af1cc70341c31ff85369d1b31245f = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_506af1cc70341c31ff85369d1b31245f.addTo(map_3f65904ec1abe792a90e73ff2836d59a);
+        
+    
+            var marker_2b18588f07f9fe3dcdf15df4233a9e3d = L.marker(
+                [35.4981194, 138.7687833],
+                {
+}
+            ).addTo(map_3f65904ec1abe792a90e73ff2836d59a);
+        
+    
+        var popup_fea644d4641791861da7859dc2c6c949 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6aac27b01b861dd9670ad2191928c71e = $(`<div id="html_6aac27b01b861dd9670ad2191928c71e" style="width: 100.0%; height: 100.0%;"><b>IMG_4264.JPG</b><br>Ticket Office, Funatsu, Japan</div>`)[0];
+                popup_fea644d4641791861da7859dc2c6c949.setContent(html_6aac27b01b861dd9670ad2191928c71e);
+            
+        
+
+        marker_2b18588f07f9fe3dcdf15df4233a9e3d.bindPopup(popup_fea644d4641791861da7859dc2c6c949)
+        ;
+
+        
+    
+    
+            marker_2b18588f07f9fe3dcdf15df4233a9e3d.bindTooltip(
+                `<div>
+                     Funatsu, Japan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_42bb53fa7376749b52014f0a354eb68e = L.marker(
+                [35.5310472, 138.7641444],
+                {
+}
+            ).addTo(map_3f65904ec1abe792a90e73ff2836d59a);
+        
+    
+        var popup_f70768dc061b929d4d6a557b8c4edade = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_34b0375851c30bdaeb40905fdb32bf18 = $(`<div id="html_34b0375851c30bdaeb40905fdb32bf18" style="width: 100.0%; height: 100.0%;"><b>IMG_4297 (1).JPG</b><br>Kawaguchi, Japan</div>`)[0];
+                popup_f70768dc061b929d4d6a557b8c4edade.setContent(html_34b0375851c30bdaeb40905fdb32bf18);
+            
+        
+
+        marker_42bb53fa7376749b52014f0a354eb68e.bindPopup(popup_f70768dc061b929d4d6a557b8c4edade)
+        ;
+
+        
+    
+    
+            marker_42bb53fa7376749b52014f0a354eb68e.bindTooltip(
+                `<div>
+                     Kawaguchi, Japan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a8aa091eabfe7f20c6e897dd20bbc303 = L.marker(
+                [35.5313694, 138.7646333],
+                {
+}
+            ).addTo(map_3f65904ec1abe792a90e73ff2836d59a);
+        
+    
+        var popup_123ca40d9b7cd5a6d4f3ef268ede521b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9e22e72dca92290488300d76583e31e9 = $(`<div id="html_9e22e72dca92290488300d76583e31e9" style="width: 100.0%; height: 100.0%;"><b>IMG_4315 (1).JPG</b><br>Kawaguchi, Japan</div>`)[0];
+                popup_123ca40d9b7cd5a6d4f3ef268ede521b.setContent(html_9e22e72dca92290488300d76583e31e9);
+            
+        
+
+        marker_a8aa091eabfe7f20c6e897dd20bbc303.bindPopup(popup_123ca40d9b7cd5a6d4f3ef268ede521b)
+        ;
+
+        
+    
+    
+            marker_a8aa091eabfe7f20c6e897dd20bbc303.bindTooltip(
+                `<div>
+                     Kawaguchi, Japan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d41f206c0ef06f42c49be4d81facd2a6 = L.marker(
+                [35.5222278, 138.7454389],
+                {
+}
+            ).addTo(map_3f65904ec1abe792a90e73ff2836d59a);
+        
+    
+        var popup_e801a0a83459e116a6aba6df8c9902b2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1713d7b8985fe9aea8c088f7d5842d0a = $(`<div id="html_1713d7b8985fe9aea8c088f7d5842d0a" style="width: 100.0%; height: 100.0%;"><b>IMG_4362 (1).JPG</b><br>Oishi, Japan</div>`)[0];
+                popup_e801a0a83459e116a6aba6df8c9902b2.setContent(html_1713d7b8985fe9aea8c088f7d5842d0a);
+            
+        
+
+        marker_d41f206c0ef06f42c49be4d81facd2a6.bindPopup(popup_e801a0a83459e116a6aba6df8c9902b2)
+        ;
+
+        
+    
+    
+            marker_d41f206c0ef06f42c49be4d81facd2a6.bindTooltip(
+                `<div>
+                     Oishi, Japan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_cb61a4d87252806e0723761458595330 = L.marker(
+                [35.5014306, 138.8015139],
+                {
+}
+            ).addTo(map_3f65904ec1abe792a90e73ff2836d59a);
+        
+    
+        var popup_e5732f254aa9ec26b01f6e851c022f0f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8ecbc1ca9d54e232e01572e5c0d8657f = $(`<div id="html_8ecbc1ca9d54e232e01572e5c0d8657f" style="width: 100.0%; height: 100.0%;"><b>IMG_4393 (1).JPG</b><br>Observation deck, Asama 2-chome, Japan</div>`)[0];
+                popup_e5732f254aa9ec26b01f6e851c022f0f.setContent(html_8ecbc1ca9d54e232e01572e5c0d8657f);
+            
+        
+
+        marker_cb61a4d87252806e0723761458595330.bindPopup(popup_e5732f254aa9ec26b01f6e851c022f0f)
+        ;
+
+        
+    
+    
+            marker_cb61a4d87252806e0723761458595330.bindTooltip(
+                `<div>
+                     Asama 2-chome, Japan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_bc386d5e8dc28c0e44188b1c1099a0f0 = L.marker(
+                [35.1270639, 138.9100028],
+                {
+}
+            ).addTo(map_3f65904ec1abe792a90e73ff2836d59a);
+        
+    
+        var popup_2ad7d7df654716ec371aaca7e3e6e268 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_07e5a1d0bd8b604199ab6acb58655927 = $(`<div id="html_07e5a1d0bd8b604199ab6acb58655927" style="width: 100.0%; height: 100.0%;"><b>IMG_4440.JPG</b><br>Ichiban-cho, Japan</div>`)[0];
+                popup_2ad7d7df654716ec371aaca7e3e6e268.setContent(html_07e5a1d0bd8b604199ab6acb58655927);
+            
+        
+
+        marker_bc386d5e8dc28c0e44188b1c1099a0f0.bindPopup(popup_2ad7d7df654716ec371aaca7e3e6e268)
+        ;
+
+        
+    
+    
+            marker_bc386d5e8dc28c0e44188b1c1099a0f0.bindTooltip(
+                `<div>
+                     Ichiban-cho, Japan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>

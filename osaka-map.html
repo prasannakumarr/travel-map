@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4cc1b4cfdd6dd117bbe05a61e202de03 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4cc1b4cfdd6dd117bbe05a61e202de03" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4cc1b4cfdd6dd117bbe05a61e202de03 = L.map(
+                "map_4cc1b4cfdd6dd117bbe05a61e202de03",
+                {
+                    center: [34.6955682375, 135.589621525],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a2fbfd7804948c7120bfb4492aeeb5ee = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_a2fbfd7804948c7120bfb4492aeeb5ee.addTo(map_4cc1b4cfdd6dd117bbe05a61e202de03);
+        
+    
+            var marker_56f5e3daa9835dd56452b3d40d109c78 = L.marker(
+                [34.6995667, 135.4979861],
+                {
+}
+            ).addTo(map_4cc1b4cfdd6dd117bbe05a61e202de03);
+        
+    
+        var popup_d57d19beef569ed66cba015f4d906102 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_44225e979ad20be0da5c4a8e63236344 = $(`<div id="html_44225e979ad20be0da5c4a8e63236344" style="width: 100.0%; height: 100.0%;"><b>IMG_5012.JPG</b><br>KEYUCA, Umeda 1-chome, Japan</div>`)[0];
+                popup_d57d19beef569ed66cba015f4d906102.setContent(html_44225e979ad20be0da5c4a8e63236344);
+            
+        
+
+        marker_56f5e3daa9835dd56452b3d40d109c78.bindPopup(popup_d57d19beef569ed66cba015f4d906102)
+        ;
+
+        
+    
+    
+            marker_56f5e3daa9835dd56452b3d40d109c78.bindTooltip(
+                `<div>
+                     Umeda 1-chome, Japan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_13dce9dc9a752b99df15f54d9548c5b6 = L.marker(
+                [34.7105028, 135.518875],
+                {
+}
+            ).addTo(map_4cc1b4cfdd6dd117bbe05a61e202de03);
+        
+    
+        var popup_e84301e4edadd805fbfd8425a3941167 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4a8351649e56515d404edb44e985145f = $(`<div id="html_4a8351649e56515d404edb44e985145f" style="width: 100.0%; height: 100.0%;"><b>IMG_5061.JPG</b><br>Nagara-Higashi 1, Japan</div>`)[0];
+                popup_e84301e4edadd805fbfd8425a3941167.setContent(html_4a8351649e56515d404edb44e985145f);
+            
+        
+
+        marker_13dce9dc9a752b99df15f54d9548c5b6.bindPopup(popup_e84301e4edadd805fbfd8425a3941167)
+        ;
+
+        
+    
+    
+            marker_13dce9dc9a752b99df15f54d9548c5b6.bindTooltip(
+                `<div>
+                     Nagara-Higashi 1, Japan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7330fd6df2f1794faf2a0a6a3d67217b = L.marker(
+                [34.7118722, 135.5198528],
+                {
+}
+            ).addTo(map_4cc1b4cfdd6dd117bbe05a61e202de03);
+        
+    
+        var popup_ddd53c8a88019e613db9c1585eedecdf = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3610ea0be6300f869fe5c8861f61778c = $(`<div id="html_3610ea0be6300f869fe5c8861f61778c" style="width: 100.0%; height: 100.0%;"><b>IMG_5109.JPG</b><br>Nagara-Higashi 1, Japan</div>`)[0];
+                popup_ddd53c8a88019e613db9c1585eedecdf.setContent(html_3610ea0be6300f869fe5c8861f61778c);
+            
+        
+
+        marker_7330fd6df2f1794faf2a0a6a3d67217b.bindPopup(popup_ddd53c8a88019e613db9c1585eedecdf)
+        ;
+
+        
+    
+    
+            marker_7330fd6df2f1794faf2a0a6a3d67217b.bindTooltip(
+                `<div>
+                     Nagara-Higashi 1, Japan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ea75206a588a1b1ce6e1a2b340ab227e = L.marker(
+                [34.7112806, 135.5208139],
+                {
+}
+            ).addTo(map_4cc1b4cfdd6dd117bbe05a61e202de03);
+        
+    
+        var popup_fc5493bf9ee7ac87cd05b18d2804a4fb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_952693e256e47ce1f00a92250ed8668b = $(`<div id="html_952693e256e47ce1f00a92250ed8668b" style="width: 100.0%; height: 100.0%;"><b>IMG_5129.JPG</b><br>Nagara-Higashi 1, Japan</div>`)[0];
+                popup_fc5493bf9ee7ac87cd05b18d2804a4fb.setContent(html_952693e256e47ce1f00a92250ed8668b);
+            
+        
+
+        marker_ea75206a588a1b1ce6e1a2b340ab227e.bindPopup(popup_fc5493bf9ee7ac87cd05b18d2804a4fb)
+        ;
+
+        
+    
+    
+            marker_ea75206a588a1b1ce6e1a2b340ab227e.bindTooltip(
+                `<div>
+                     Nagara-Higashi 1, Japan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_bc73bb39f15c42bb33d0fe2142c60faf = L.marker(
+                [34.6689389, 135.5012194],
+                {
+}
+            ).addTo(map_4cc1b4cfdd6dd117bbe05a61e202de03);
+        
+    
+        var popup_000fb42bcb3e3f722c99e16e38779f6f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_563f59555e639a2729c06c9f2f425a2c = $(`<div id="html_563f59555e639a2729c06c9f2f425a2c" style="width: 100.0%; height: 100.0%;"><b>IMG_5188.JPG</b><br>Dotonbori 1, Japan</div>`)[0];
+                popup_000fb42bcb3e3f722c99e16e38779f6f.setContent(html_563f59555e639a2729c06c9f2f425a2c);
+            
+        
+
+        marker_bc73bb39f15c42bb33d0fe2142c60faf.bindPopup(popup_000fb42bcb3e3f722c99e16e38779f6f)
+        ;
+
+        
+    
+    
+            marker_bc73bb39f15c42bb33d0fe2142c60faf.bindTooltip(
+                `<div>
+                     Dotonbori 1, Japan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c5c51ef936a0ec90b79dc511c4beaee6 = L.marker(
+                [34.6689722, 135.5013278],
+                {
+}
+            ).addTo(map_4cc1b4cfdd6dd117bbe05a61e202de03);
+        
+    
+        var popup_af0622dc1a09fbf85bed731cd29b3ed8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e5f9427114f182d84176a82d6bc070e3 = $(`<div id="html_e5f9427114f182d84176a82d6bc070e3" style="width: 100.0%; height: 100.0%;"><b>IMG_5198.JPG</b><br>Dotonbori 1, Japan</div>`)[0];
+                popup_af0622dc1a09fbf85bed731cd29b3ed8.setContent(html_e5f9427114f182d84176a82d6bc070e3);
+            
+        
+
+        marker_c5c51ef936a0ec90b79dc511c4beaee6.bindPopup(popup_af0622dc1a09fbf85bed731cd29b3ed8)
+        ;
+
+        
+    
+    
+            marker_c5c51ef936a0ec90b79dc511c4beaee6.bindTooltip(
+                `<div>
+                     Dotonbori 1, Japan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9989190239bab73eabe17dcc46e8bcc5 = L.marker(
+                [34.7033583, 135.4992972],
+                {
+}
+            ).addTo(map_4cc1b4cfdd6dd117bbe05a61e202de03);
+        
+    
+        var popup_be8a45c5078a340adb70a0c0fa9c24ae = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_71672746d1bcd46943766e481f0fb4fe = $(`<div id="html_71672746d1bcd46943766e481f0fb4fe" style="width: 100.0%; height: 100.0%;"><b>IMG_5206.JPG</b><br>Hankyu SUN Plaza Underground Street, Kakudacho, Japan</div>`)[0];
+                popup_be8a45c5078a340adb70a0c0fa9c24ae.setContent(html_71672746d1bcd46943766e481f0fb4fe);
+            
+        
+
+        marker_9989190239bab73eabe17dcc46e8bcc5.bindPopup(popup_be8a45c5078a340adb70a0c0fa9c24ae)
+        ;
+
+        
+    
+    
+            marker_9989190239bab73eabe17dcc46e8bcc5.bindTooltip(
+                `<div>
+                     Kakudacho, Japan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ac1c3f646cda93e84a509ee4c6ad176b = L.marker(
+                [34.6832444, 135.8289028],
+                {
+}
+            ).addTo(map_4cc1b4cfdd6dd117bbe05a61e202de03);
+        
+    
+        var popup_e6fabcc418f16f5d3ded07f0632a26b9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6e50af6c4ff559f2e42e0aa3974b1d03 = $(`<div id="html_6e50af6c4ff559f2e42e0aa3974b1d03" style="width: 100.0%; height: 100.0%;"><b>IMG_5268.JPG</b><br>Noboriōji-chō, Japan</div>`)[0];
+                popup_e6fabcc418f16f5d3ded07f0632a26b9.setContent(html_6e50af6c4ff559f2e42e0aa3974b1d03);
+            
+        
+
+        marker_ac1c3f646cda93e84a509ee4c6ad176b.bindPopup(popup_e6fabcc418f16f5d3ded07f0632a26b9)
+        ;
+
+        
+    
+    
+            marker_ac1c3f646cda93e84a509ee4c6ad176b.bindTooltip(
+                `<div>
+                     Noboriōji-chō, Japan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_130f1e566ecff493a2e0d43e3c5f8f8c = L.marker(
+                [34.6822778, 135.8310861],
+                {
+}
+            ).addTo(map_4cc1b4cfdd6dd117bbe05a61e202de03);
+        
+    
+        var popup_1967f61701680f9b9bee48604c2433a4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_84584d3436348c36c2d0977cfdef74a8 = $(`<div id="html_84584d3436348c36c2d0977cfdef74a8" style="width: 100.0%; height: 100.0%;"><b>IMG_5279.JPG</b><br>Noboriōji-chō, Japan</div>`)[0];
+                popup_1967f61701680f9b9bee48604c2433a4.setContent(html_84584d3436348c36c2d0977cfdef74a8);
+            
+        
+
+        marker_130f1e566ecff493a2e0d43e3c5f8f8c.bindPopup(popup_1967f61701680f9b9bee48604c2433a4)
+        ;
+
+        
+    
+    
+            marker_130f1e566ecff493a2e0d43e3c5f8f8c.bindTooltip(
+                `<div>
+                     Noboriōji-chō, Japan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8d7011564994e202552cd616847404fd = L.marker(
+                [34.6869944, 135.8394944],
+                {
+}
+            ).addTo(map_4cc1b4cfdd6dd117bbe05a61e202de03);
+        
+    
+        var popup_54a26aa062c5cd9379f9a262481cb04f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c7361a36c938d4dfb995ee62e4726693 = $(`<div id="html_c7361a36c938d4dfb995ee62e4726693" style="width: 100.0%; height: 100.0%;"><b>IMG_5310.JPG</b><br>Noboriōji-chō, Japan</div>`)[0];
+                popup_54a26aa062c5cd9379f9a262481cb04f.setContent(html_c7361a36c938d4dfb995ee62e4726693);
+            
+        
+
+        marker_8d7011564994e202552cd616847404fd.bindPopup(popup_54a26aa062c5cd9379f9a262481cb04f)
+        ;
+
+        
+    
+    
+            marker_8d7011564994e202552cd616847404fd.bindTooltip(
+                `<div>
+                     Noboriōji-chō, Japan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_07eabb0431649cfe329ca9b8eeb0fc89 = L.marker(
+                [34.6880278, 135.8397361],
+                {
+}
+            ).addTo(map_4cc1b4cfdd6dd117bbe05a61e202de03);
+        
+    
+        var popup_c4c190dee4d121018f7cbef983d676de = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_16233c8b51548dd1d64d7c523f31b8db = $(`<div id="html_16233c8b51548dd1d64d7c523f31b8db" style="width: 100.0%; height: 100.0%;"><b>IMG_5327.JPG</b><br>Noboriōji-chō, Japan</div>`)[0];
+                popup_c4c190dee4d121018f7cbef983d676de.setContent(html_16233c8b51548dd1d64d7c523f31b8db);
+            
+        
+
+        marker_07eabb0431649cfe329ca9b8eeb0fc89.bindPopup(popup_c4c190dee4d121018f7cbef983d676de)
+        ;
+
+        
+    
+    
+            marker_07eabb0431649cfe329ca9b8eeb0fc89.bindTooltip(
+                `<div>
+                     Noboriōji-chō, Japan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_87628049bbb5a75139cc4df025cc7a1b = L.marker(
+                [34.7011028, 135.5115361],
+                {
+}
+            ).addTo(map_4cc1b4cfdd6dd117bbe05a61e202de03);
+        
+    
+        var popup_90271bd62ee84f5c34e50d0493fb1211 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_edcb6edc6dadc82b85392827936b21a6 = $(`<div id="html_edcb6edc6dadc82b85392827936b21a6" style="width: 100.0%; height: 100.0%;"><b>IMG_5367.JPG</b><br>Tenjinbashi 3-chome, Japan</div>`)[0];
+                popup_90271bd62ee84f5c34e50d0493fb1211.setContent(html_edcb6edc6dadc82b85392827936b21a6);
+            
+        
+
+        marker_87628049bbb5a75139cc4df025cc7a1b.bindPopup(popup_90271bd62ee84f5c34e50d0493fb1211)
+        ;
+
+        
+    
+    
+            marker_87628049bbb5a75139cc4df025cc7a1b.bindTooltip(
+                `<div>
+                     Tenjinbashi 3-chome, Japan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_84e85a8e0d047e830f10df9f77c07096 = L.marker(
+                [34.7010889, 135.5115194],
+                {
+}
+            ).addTo(map_4cc1b4cfdd6dd117bbe05a61e202de03);
+        
+    
+        var popup_6ca4a133e633639558a4b6a191db0760 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_82c1bb274f597a1795113aabe26281af = $(`<div id="html_82c1bb274f597a1795113aabe26281af" style="width: 100.0%; height: 100.0%;"><b>IMG_5374.JPG</b><br>Tenjinbashi 3-chome, Japan</div>`)[0];
+                popup_6ca4a133e633639558a4b6a191db0760.setContent(html_82c1bb274f597a1795113aabe26281af);
+            
+        
+
+        marker_84e85a8e0d047e830f10df9f77c07096.bindPopup(popup_6ca4a133e633639558a4b6a191db0760)
+        ;
+
+        
+    
+    
+            marker_84e85a8e0d047e830f10df9f77c07096.bindTooltip(
+                `<div>
+                     Tenjinbashi 3-chome, Japan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_44549cbc989b0db4047b7478f39b4e0c = L.marker(
+                [34.7015417, 135.5115056],
+                {
+}
+            ).addTo(map_4cc1b4cfdd6dd117bbe05a61e202de03);
+        
+    
+        var popup_affd69ca777d6cd8fc33572bd462de71 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_80a6eda974669c4a077bdfe8053de347 = $(`<div id="html_80a6eda974669c4a077bdfe8053de347" style="width: 100.0%; height: 100.0%;"><b>IMG_5388.JPG</b><br>Tenjinbashi 3-chome, Japan</div>`)[0];
+                popup_affd69ca777d6cd8fc33572bd462de71.setContent(html_80a6eda974669c4a077bdfe8053de347);
+            
+        
+
+        marker_44549cbc989b0db4047b7478f39b4e0c.bindPopup(popup_affd69ca777d6cd8fc33572bd462de71)
+        ;
+
+        
+    
+    
+            marker_44549cbc989b0db4047b7478f39b4e0c.bindTooltip(
+                `<div>
+                     Tenjinbashi 3-chome, Japan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c708db26b51687948f10962dd65e32f3 = L.marker(
+                [34.7038556, 135.4996639],
+                {
+}
+            ).addTo(map_4cc1b4cfdd6dd117bbe05a61e202de03);
+        
+    
+        var popup_3a8ec659861386488f35d803cb1c50d5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d3bec230652a8fd5ebaaa50b28b9847a = $(`<div id="html_d3bec230652a8fd5ebaaa50b28b9847a" style="width: 100.0%; height: 100.0%;"><b>IMG_5413.JPG</b><br>Hankyu SUN Plaza Underground Street, Kakudacho, Japan</div>`)[0];
+                popup_3a8ec659861386488f35d803cb1c50d5.setContent(html_d3bec230652a8fd5ebaaa50b28b9847a);
+            
+        
+
+        marker_c708db26b51687948f10962dd65e32f3.bindPopup(popup_3a8ec659861386488f35d803cb1c50d5)
+        ;
+
+        
+    
+    
+            marker_c708db26b51687948f10962dd65e32f3.bindTooltip(
+                `<div>
+                     Kakudacho, Japan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0449bdeae6f0cd9af472a047dd03d07c = L.marker(
+                [34.7064667, 135.5011278],
+                {
+}
+            ).addTo(map_4cc1b4cfdd6dd117bbe05a61e202de03);
+        
+    
+        var popup_d86c24aad7921a1c859af5d4b3360374 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8e86ae5e1435bdf5120555fcdb5ab0b9 = $(`<div id="html_8e86ae5e1435bdf5120555fcdb5ab0b9" style="width: 100.0%; height: 100.0%;"><b>IMG_5619.JPG</b><br>Tsurunocho, Japan</div>`)[0];
+                popup_d86c24aad7921a1c859af5d4b3360374.setContent(html_8e86ae5e1435bdf5120555fcdb5ab0b9);
+            
+        
+
+        marker_0449bdeae6f0cd9af472a047dd03d07c.bindPopup(popup_d86c24aad7921a1c859af5d4b3360374)
+        ;
+
+        
+    
+    
+            marker_0449bdeae6f0cd9af472a047dd03d07c.bindTooltip(
+                `<div>
+                     Tsurunocho, Japan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
